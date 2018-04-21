@@ -1,0 +1,23 @@
+{
+  "name": "xvg-data-service",
+  "version": "1.0.0",
+  "description": "Get balance of XVG wallets and convert to approximate USD value",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptrotter1/xvg-data-service.git"
+  },
+  "author": "Paul Trotter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptrotter1/xvg-data-service/issues"
+  },
+  "homepage": "https://github.com/ptrotter1/xvg-data-service#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ssl-root-cas": "^1.2.5"
+  }
+}
