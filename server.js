@@ -81,11 +81,11 @@ function getYiimpInfo() {
 
         outArray2.push(`${numberWithCommas(xvgMiningStats.paid24h.toFixed(decimals))} XVG/24h`);
         outArray2.push(`${numberWithCommas((xvgMiningStats.paid24h * xvgValue["USD"]).toFixed(decimals))} USD/24h`);
+        outArray2.push(`${numberWithCommas((xvgMiningStats.paid24h * xvgValue["USD"] * 30).toFixed(decimals))} USD/30d`);
 
         for (outStr of outArray2) if (outStr.length > padStart2) padStart2 = outStr.length;
         for (outStr of outArray2) console.log("  " + outStr.padStart(padStart2));
 
-        console.log("");
     } catch (e) {
         throw e;
     }
