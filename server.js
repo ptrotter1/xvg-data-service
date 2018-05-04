@@ -71,7 +71,7 @@ function getYiimpInfo() {
         for (outStr of outArray) if (outStr.length > padStart) padStart = outStr.length;
         for (outStr of outArray) {
             if (outStr.indexOf("XVG") == -1) {
-                console.log("≅ " + outStr.padStart(padStart));  
+                console.log("~ " + outStr.padStart(padStart));  
             } else {
                 console.log("  " + outStr.padStart(padStart));  
             }
